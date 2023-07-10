@@ -1,0 +1,68 @@
+body {
+    margin: 50px;
+    font-family: poppins, montserrat;
+}
+
+h1, h2 {
+    color: #333;
+    font-family: poppins;
+}
+
+form label {
+font-weight: bold;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.all-blog {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+#blog-entries {
+    padding: 10px;
+}
+
+#content,
+#title {
+    font-family: montserrat;
+    font-size: 13px;
+}
+
+.post-btn {
+    font-family: montserrat;
+    font-size: 13px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.blog-entry {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.blog-entry h3 {
+    color: #666;
+    margin: 0px;
+}
+
+.blog-entry p {
+    font-family: montserrat;
+    margin-top: 5px;
+}
+
+.edit-link {
+    color: blue;
+    cursor: pointer;
+    background-color: lightgrey;
+    border-radius: 3px;
+    padding-top: 3px;padding-bottom: 3px;
+    padding-left: 20px;padding-right: 20px;
+}   
